@@ -1,21 +1,27 @@
 "use client";
-import React from 'react';
+import React from "react";
 import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   return (
-    <section id="home" className="h-screen flex flex-col justify-center items-center bg-white bg-fixed bg-cover bg-center p-8">
+    <section
+      id="home"
+      className="mt-44 sm:mt-10 h-screen flex flex-col justify-center items-center bg-white bg-fixed bg-cover bg-center p-8"
+    >
       {/* Hero Container */}
       <div className="flex flex-col md:flex-row items-center max-w-screen-lg mx-auto space-y-8 md:space-y-0">
-        
         {/* Left Side (Text Section) */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:ml-30">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-black">
+          <h1 className=" text-5xl md:text-7xl font-bold mb-4 text-black">
             Hello, I am <span className="text-blue-600">Ashwariya Gopal</span>
             <br className="hidden lg:inline-block" />
             <Typewriter
               options={{
-                strings: ['Web Developer', 'Content Writer','A Tech Enthusiast'],
+                strings: [
+                  "Web Developer",
+                  "Content Writer",
+                  "A Tech Enthusiast",
+                ],
                 autoStart: true,
                 loop: true,
                 cursor: "|",
@@ -26,8 +32,9 @@ export default function Hero() {
 
           {/* Content Paragraph */}
           <p className="text-xl md:text-2xl mb-8 text-black">
-            I'm a passionate web developer, creating modern websites with the latest technologies. 
-            I also enjoy writing and sharing content that helps others.
+            I'm a passionate web developer, creating modern websites with the
+            latest technologies. I also enjoy writing and sharing content that
+            helps others.
           </p>
 
           {/* Call to Action Button */}
@@ -39,7 +46,7 @@ export default function Hero() {
           </a>
         </div>
         {/* Right Side (Web Development Icon Section) */}
-        <div className="flex justify-center md:justify-end w-full md:w-1/2 ml-20">
+        <div className="flex justify-center md:justify-end w-full md:w-1/2 xl:ml-20 ">
           <div className="bg-white p-4 rounded-full shadow-xl">
             {/* Web Development Icon - Replace with any suitable icon */}
             <svg
