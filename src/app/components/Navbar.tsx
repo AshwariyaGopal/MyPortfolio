@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full bg-white text-black font-bold shadow-md z-50 ">
       <nav className="container mx-auto flex justify-between items-center p-3">
         <div className="text-2xl font-bold ">
-          <div className='font-bold '> My Portfolio</div>
+          <div className='font-bold ml-28'> My Portfolio</div>
         </div>
         <div className="hidden md:flex space-x-8 mr-5">
           <Link href="#home">Home</Link>
