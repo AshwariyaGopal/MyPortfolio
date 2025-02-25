@@ -75,6 +75,15 @@ export default function Projects() {
           </div>
           <a href="https://calculator-lemon-gamma-53.vercel.app" className="text-blue-700 hover:underline">View Website</a>
         </div>
+        {/*Project 2*/}
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 h-64 flex flex-col justify-between">
+          <div>
+            <h3 className="text-2xl font-semibold text-black mb-4">TO-DO List</h3>
+            <p className="text-black mb-4">"I created a To-Do List project using HTML, CSS, and JavaScript.This project helped me enhance my skills in DOM manipulation, event handling, and local storage."...</p>
+          </div>
+          <a href="https://code-alpha-project-name-todo-project1.vercel.app" className="text-blue-700 hover:underline">View Website</a>
+        </div>
+      
         </div>
       <h1 className="text-4xl font-bold text-center text-black mt-20">Html & CSS Projects</h1>
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-20" >
